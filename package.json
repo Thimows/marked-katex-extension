@@ -43,13 +43,14 @@
   },
   "homepage": "https://github.com/UziTech/marked-katex-extension#readme",
   "peerDependencies": {
-    "marked": ">=4 <13",
-    "katex": ">=0.16 <0.17"
+    "katex": ">=0.16 <0.17",
+    "marked": ">=4 <13"
   },
   "devDependencies": {
     "@babel/core": "^7.24.6",
     "@babel/preset-env": "^7.24.6",
     "@markedjs/testutils": "12.0.2-0",
+    "@rollup/plugin-commonjs": "^25.0.8",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^12.0.0",
